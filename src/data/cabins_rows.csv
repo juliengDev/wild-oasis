@@ -1,0 +1,23 @@
+id,created_at,name,maxCapacity,regularPrice,discount,description,image
+2,2023-08-15 08:45:34.254463+00,2,4,200,78,text,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-002.jpg?t=2023-08-15T08%3A45%3A30.875Z
+3,2023-08-15 08:54:46.269768+00,3,3,200,55,test 2 ,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-003.jpg?t=2023-08-15T08%3A54%3A43.239Z
+4,2023-08-15 08:55:05.971942+00,4,5,444,33,test 4,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-004.jpg?t=2023-08-15T08%3A55%3A03.389Z
+5,2023-08-14 13:25:25.112216+00,1,2,250,50,small cabin,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-001.jpg?t=2023-08-14T14%3A57%3A30.627Z
+6,2023-08-15 08:45:34.254463+00,2,4,200,78,text,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-002.jpg?t=2023-08-15T08%3A45%3A30.875Z
+7,2023-08-15 08:54:46.269768+00,3,3,200,55,test 2 ,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-003.jpg?t=2023-08-15T08%3A54%3A43.239Z
+8,2023-08-15 08:55:05.971942+00,4,5,444,33,test 4,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-004.jpg?t=2023-08-15T08%3A55%3A03.389Z
+9,2023-08-14 13:25:25.112216+00,1,2,250,50,small cabin,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-001.jpg?t=2023-08-14T14%3A57%3A30.627Z
+10,2023-08-15 08:45:34.254463+00,2,4,200,78,text,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-002.jpg?t=2023-08-15T08%3A45%3A30.875Z
+11,2023-08-15 08:54:46.269768+00,3,3,200,55,test 2 ,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-003.jpg?t=2023-08-15T08%3A54%3A43.239Z
+12,2023-08-15 08:55:05.971942+00,4,5,444,33,test 4,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-004.jpg?t=2023-08-15T08%3A55%3A03.389Z
+13,2023-08-15 08:45:34.254463+00,2,4,200,78,text,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-002.jpg?t=2023-08-15T08%3A45%3A30.875Z
+14,2023-08-15 08:54:46.269768+00,3,3,200,55,test 2 ,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-003.jpg?t=2023-08-15T08%3A54%3A43.239Z
+15,2023-08-15 08:55:05.971942+00,4,5,444,33,test 4,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-004.jpg?t=2023-08-15T08%3A55%3A03.389Z
+16,2023-08-14 13:25:25.112216+00,1,2,250,50,small cabin,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-001.jpg?t=2023-08-14T14%3A57%3A30.627Z
+17,2023-08-15 08:45:34.254463+00,2,4,200,78,text,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-002.jpg?t=2023-08-15T08%3A45%3A30.875Z
+18,2023-08-15 08:54:46.269768+00,3,3,200,55,test 2 ,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-003.jpg?t=2023-08-15T08%3A54%3A43.239Z
+19,2023-08-15 08:55:05.971942+00,4,5,444,33,test 4,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-004.jpg?t=2023-08-15T08%3A55%3A03.389Z
+20,2023-08-14 13:25:25.112216+00,1,2,250,50,small cabin,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-001.jpg?t=2023-08-14T14%3A57%3A30.627Z
+21,2023-08-15 08:45:34.254463+00,2,4,200,78,text,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-002.jpg?t=2023-08-15T08%3A45%3A30.875Z
+22,2023-08-15 08:54:46.269768+00,3,3,200,55,test 2 ,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-003.jpg?t=2023-08-15T08%3A54%3A43.239Z
+23,2023-08-15 08:55:05.971942+00,4,5,444,33,test 4,https://yqyydelhxzosktygghto.supabase.co/storage/v1/object/public/cabin-images/cabin-004.jpg?t=2023-08-15T08%3A55%3A03.389Z
