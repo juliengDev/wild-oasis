@@ -1,11 +1,6 @@
 import styled from "styled-components";
 import { format, isToday } from "date-fns";
-import {
-  HiOutlineChatBubbleBottomCenterText,
-  HiOutlineCheckCircle,
-  HiOutlineCurrencyDollar,
-  HiOutlineHomeModern,
-} from "react-icons/hi2";
+import { HiOutlineChatBubbleBottomCenterText, HiOutlineCheckCircle, HiOutlineCurrencyDollar, HiOutlineHomeModern } from "react-icons/hi2";
 
 import DataItem from "../../ui/DataItem";
 import { Flag } from "../../ui/Flag";
@@ -76,10 +71,8 @@ const Price = styled.div`
   border-radius: var(--border-radius-sm);
   margin-top: 2.4rem;
 
-  background-color: ${(props) =>
-    props.isPaid ? "var(--color-green-100)" : "var(--color-yellow-100)"};
-  color: ${(props) =>
-    props.isPaid ? "var(--color-green-700)" : "var(--color-yellow-700)"};
+  background-color: ${(props) => (props.$isPaid ? "var(--color-green-100)" : "var(--color-yellow-100)")};
+  color: ${(props) => (props.$isPaid ? "var(--color-green-700)" : "var(--color-yellow-700)")};
 
   & p:last-child {
     text-transform: uppercase;
@@ -130,11 +123,7 @@ function BookingDataBox({ booking }) {
         </div>
 
         <p>
-          {format(new Date(startDate), "EEE, MMM dd yyyy")} (
-          {isToday(new Date(startDate))
-            ? "Today"
-            : formatDistanceFromNow(startDate)}
-          ) &mdash; {format(new Date(endDate), "EEE, MMM dd yyyy")}
+          {format(new Date(startDate), "EEE, MMM dd yyyy")} ({isToday(new Date(startDate)) ? "Today" : formatDistanceFromNow(startDate)}) &mdash; {format(new Date(endDate), "EEE, MMM dd yyyy")}
         </p>
       </Header>
 
@@ -151,10 +140,7 @@ function BookingDataBox({ booking }) {
         </Guest>
 
         {observations && (
-          <DataItem
-            icon={<HiOutlineChatBubbleBottomCenterText />}
-            label="Observations"
-          >
+          <DataItem icon={<HiOutlineChatBubbleBottomCenterText />} label="Observations">
             {observations}
           </DataItem>
         )}
@@ -163,14 +149,11 @@ function BookingDataBox({ booking }) {
           {hasBreakfast ? "Yes" : "No"}
         </DataItem>
 
-        <Price isPaid={isPaid}>
+        <Price $isPaid={isPaid}>
           <DataItem icon={<HiOutlineCurrencyDollar />} label={`Total price`}>
             {formatCurrency(totalPrice)}
 
-            {hasBreakfast &&
-              ` (${formatCurrency(cabinPrice)} cabin + ${formatCurrency(
-                extrasPrice
-              )} breakfast)`}
+            {hasBreakfast && ` (${formatCurrency(cabinPrice)} cabin + ${formatCurrency(extrasPrice)} breakfast)`}
           </DataItem>
 
           <p>{isPaid ? "Paid" : "Will pay at property"}</p>
