@@ -4,6 +4,7 @@ import { HiOutlineUser } from "react-icons/hi2";
 import Logout from "../features/authentication/Logout";
 import ButtonIcon from "./ButtonIcon";
 import SpinnderMini from "./SpinnerMini";
+import DarkModeToggle from "./DarkModeToggle";
 
 const StyledHeaderMenu = styled.ul`
   display: flex;
@@ -19,6 +20,7 @@ function HeaderMenu() {
           <HiOutlineUser />
         </ButtonIcon>
       </li>
+      <DarkModeToggle />
       <li>
         <Logout />
       </li>
