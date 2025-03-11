@@ -1,9 +1,9 @@
 import { useForm } from "react-hook-form";
+import { useSignup } from "./useSignup";
 import Button from "../../ui/Button";
 import Form from "../../ui/Form";
 import FormRow from "../../ui/FormRow";
 import Input from "../../ui/Input";
-import { useSignup } from "./useSignup";
 
 // Email regex: /\S+@\S+\.\S+/
 
@@ -14,7 +14,7 @@ function SignupForm() {
 
   function onSubmit({ fullName, email, password }) {
     signup(
-      { fullName, email, password },
+      { fullName, email: email.trim(), password },
       {
         onSettled: () => reset(),
       }
@@ -31,7 +31,13 @@ function SignupForm() {
           disabled={isLoading}
           type="email"
           id="email"
-          {...register("email", { required: "This field is required", pattern: { value: /\S+@\S+\.\S+/, message: "Please provide a valid email adress" } })}
+          {...register("email", {
+            required: "This field is required",
+            pattern: {
+              value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
+              message: "Please provide a valid email address",
+            },
+          })}
         />
       </FormRow>
 
