@@ -1,6 +1,13 @@
 import styled, { css } from "styled-components";
 
 const sizes = {
+  verySmall: css`
+    font-size: 0.8rem;
+    padding: 0.2rem 0.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+  `,
   small: css`
     font-size: 1.2rem;
     padding: 0.4rem 0.8rem;
@@ -53,7 +60,9 @@ const Button = styled.button`
   border-radius: var(--border-radius-sm);
   box-shadow: var(--shadow-sm);
 
-  ${(props) => sizes[props.size]}
+  ${(props) => {
+    return sizes[props.size];
+  }}
   ${(props) => variations[props.variation]}
 `;
 
